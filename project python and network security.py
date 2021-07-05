@@ -3,7 +3,7 @@ import hashlib
 # initializing string
 str_hash = str(input("enter the name: "))
   
-# encoding shapeai using encode()
+# encoding string using encode()
 # then sending to md5(),sha256(),sha224()
 result1 = hashlib.md5(str_hash.encode())
 result2 = hashlib.sha256(str_hash.encode()) 
